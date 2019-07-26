@@ -1,9 +1,10 @@
 const libraryName = 'esm-test';
+const path = require('path');
 module.exports = {
-  entry: path.join(__dirname, './src/index.js'),
+  entry: path.join(__dirname, './index.mjs'),
   output: {
     path: path.join(__dirname, './dist'),
-    filename: 'Xample.js',
+    filename: 'index.ms',
     library: libraryName,
     libraryTarget: 'umd',
     publicPath: '/dist/',

@@ -4,7 +4,7 @@ module.exports = {
   entry: path.join(__dirname, './index.mjs'),
   output: {
     path: path.join(__dirname, './dist'),
-    filename: 'index.ms',
+    filename: 'index.mjs',
     library: libraryName,
     libraryTarget: 'umd',
     publicPath: '/dist/',

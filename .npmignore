@@ -1,7 +1,6 @@
 # .npmignore
 .eslintrc
 .gitignore
-/src
 webpack.config.js
 .babelrc
 /.vscode

@@ -1,11 +1,12 @@
 {
   "name": "esm-test",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "module": "index.mjs",
+  "esm": "auto",
   "scripts": {
-    "prepublish": "rm -rf ./dist && npm run build",
+    "prepublish": "rm -rf dist && npm run build",
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -35,6 +36,6 @@
     "webpack-cli": "^3.3.6"
   },
   "dependencies": {
-    "@std/esm": "^0.26.0"
+    "esm": "^3.2.25"
   }
 }

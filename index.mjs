@@ -1,4 +1,4 @@
-import Example from './src/Example.jsx';
+import Example from './src/Example.js';
 export function foo() {
   console.log('Hello world');
 }

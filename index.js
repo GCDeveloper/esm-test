@@ -1,2 +1,2 @@
 require = require('esm')(module);
-module.exports = require('./index.mjs').default;
+module.exports = require('./dist/index.mjs').default;

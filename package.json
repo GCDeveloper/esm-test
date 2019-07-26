@@ -1,9 +1,9 @@
 {
   "name": "esm-test",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
-  "module": "index.mjs",
+  "module": "./dist/index.mjs",
   "esm": "auto",
   "scripts": {
     "prepublish": "rm -rf dist && npm run build",
